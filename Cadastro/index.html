@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se | Anime Site</title>
+        <link rel='stylesheet' href='./css/index.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <section class='formulario'>
+                <form>
+                    <div class='titulo'>
+                        <h1>Registro de Anime</h1>
+                        <h2>Participe do mundo dos animes! Registre-se.</h2>
+                    </div>
+                    <section>
+                        <div>
+                            <label for='nome'><span>Nome de Anime</span></label>
+                            <label for='email'><span>E-mail</span></label>
+                            <label for='data'><span>Data de nascimento</span></label>
+                            <label for='estado'><span>Anime Favorito</span></label>
+                            <label for='senha'><span>Senha</span></label>
+                            <label for='confSenha'><span>Confirme a senha</span></label>
+                        </div>
+                        <div>
+                            <input type='text' placeholder='Naruto Uzumaki' id='nome' class='input' required/>
+                            <input type='email' placeholder='naruto@leafvillage.com' id='email' class='input' required/>
+                            <input type='date' placeholder='Out 10, 2002' id='data' class='input' required/>
+                            <input type='text' placeholder='One Piece' id='estado' class='input' required/>
+                            <input type='password' placeholder='Senha' id='senha' class='input' required/>
+                            <input type='password' placeholder='Senha' id='confSenha' class='input' required/>
+                            <button type='submit'>Cadastrar</button>
+                        </div>
+                    </section>
+                </form>
+            </section>
+            <section class='flier'>
+                <div class='flier-overlay'>
+                    <header>
+                        <a href='#'>
+                            <img src='./image/list.svg' alt='botão de menu' />
+                        </a>
+                        <span>AnimeWorld</span>
+                    </header>
+                    <main>
+                        <section>
+                            <span>EXPLORE O MUNDO DOS ANIMES</span>
+                            <h1>AnimeWorld.</h1>
+                        </section>
+                        <span>DESCUBRA NOVOS ANIMES</span>
+                    </main>
+                </div>
+                <img src='https://a.storyblok.com/f/178900/640x900/548ef462e4/4810926911659a3004dedeb7cf27b6e71517851546_full.jpg/m/640x900' alt='Anime Image'/>
+            </section>
+        </div>
+    </body>
+</html>
